@@ -55,4 +55,8 @@ df[ c(1,3), ]
 # Select columns by name
 df[ ,c("FFE","DEM")]
 
-#--------------------------------
+#--------------------------------creat a dataframe
+df <- data.frame( c( 183, 85, 40), c( 175, 76, 35), c( 178, 79, 38 ))
+names(df) <- c("Height", "Weight", "Age")
+#--------------------------------               
+               
