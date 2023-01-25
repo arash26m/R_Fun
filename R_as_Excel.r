@@ -52,4 +52,7 @@ df[1:2,]
 # First and third row and all columns
 df[ c(1,3), ]
 
+# Select columns by name
+df[ ,c("FFE","DEM")]
+
 #--------------------------------
