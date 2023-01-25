@@ -55,8 +55,15 @@ df[ c(1,3), ]
 # Select columns by name
 df[ ,c("FFE","DEM")]
 
-#--------------------------------creat a dataframe
+#--------------------------------creat a dataframe and convert dataframe to lists
 df <- data.frame( c( 183, 85, 40), c( 175, 76, 35), c( 178, 79, 38 ))
 names(df) <- c("Height", "Weight", "Age")
-#--------------------------------               
+#or
+df <- data.frame(name = c("Geeks", "for", "Geeks"), roll_no = c(10, 20, 30), age=c(20,21,22) )
+
+#convert dataframe to lists               
+list=as.list(df)
+list$Height
+#--------------------------------
+
                
